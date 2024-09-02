@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ELEYDEV\\Desktop\\DesignPatterns\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5D3D6705-5C66-4AB7-BD35-74E79D8997DA}|CQRSDesignPattern\\DesignPattern.CQRS\\DesignPattern.CQRS.csproj|c:\\users\\eleydev\\desktop\\designpatterns\\cqrsdesignpattern\\designpattern.cqrs\\cqrspattern\\handlers\\getproductqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D3D6705-5C66-4AB7-BD35-74E79D8997DA}|CQRSDesignPattern\\DesignPattern.CQRS\\DesignPattern.CQRS.csproj|solutionrelative:cqrsdesignpattern\\designpattern.cqrs\\cqrspattern\\handlers\\getproductqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D3D6705-5C66-4AB7-BD35-74E79D8997DA}|CQRSDesignPattern\\DesignPattern.CQRS\\DesignPattern.CQRS.csproj|c:\\users\\eleydev\\desktop\\designpatterns\\cqrsdesignpattern\\designpattern.cqrs\\cqrspattern\\results\\getproductqueryresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D3D6705-5C66-4AB7-BD35-74E79D8997DA}|CQRSDesignPattern\\DesignPattern.CQRS\\DesignPattern.CQRS.csproj|solutionrelative:cqrsdesignpattern\\designpattern.cqrs\\cqrspattern\\results\\getproductqueryresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GetProductQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\ELEYDEV\\Desktop\\DesignPatterns\\CQRSDesignPattern\\DesignPattern.CQRS\\CQRSPattern\\Handlers\\GetProductQueryHandler.cs",
+              "RelativeDocumentMoniker": "CQRSDesignPattern\\DesignPattern.CQRS\\CQRSPattern\\Handlers\\GetProductQueryHandler.cs",
+              "ToolTip": "C:\\Users\\ELEYDEV\\Desktop\\DesignPatterns\\CQRSDesignPattern\\DesignPattern.CQRS\\CQRSPattern\\Handlers\\GetProductQueryHandler.cs",
+              "RelativeToolTip": "CQRSDesignPattern\\DesignPattern.CQRS\\CQRSPattern\\Handlers\\GetProductQueryHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T14:27:52.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetProductQueryResult.cs",
+              "DocumentMoniker": "C:\\Users\\ELEYDEV\\Desktop\\DesignPatterns\\CQRSDesignPattern\\DesignPattern.CQRS\\CQRSPattern\\Results\\GetProductQueryResult.cs",
+              "RelativeDocumentMoniker": "CQRSDesignPattern\\DesignPattern.CQRS\\CQRSPattern\\Results\\GetProductQueryResult.cs",
+              "ToolTip": "C:\\Users\\ELEYDEV\\Desktop\\DesignPatterns\\CQRSDesignPattern\\DesignPattern.CQRS\\CQRSPattern\\Results\\GetProductQueryResult.cs",
+              "RelativeToolTip": "CQRSDesignPattern\\DesignPattern.CQRS\\CQRSPattern\\Results\\GetProductQueryResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T14:25:49.546Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
