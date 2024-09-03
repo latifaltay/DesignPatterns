@@ -1,3 +1,6 @@
+using DesignPattern.CQRS.CQRSPattern.Commands;
+using DesignPattern.CQRS.CQRSPattern.Handlers;
+using DesignPattern.CQRS.DAL;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -23,6 +26,13 @@ namespace DesignPattern.CQRS
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContext<Context>();
+            services.AddScoped<GetProductQueryHandler>();
+            services.AddScoped<CreateProductCommandHandler>();
+            services.AddScoped<RemoveProductCommandHandler>();
+            services.AddScoped<GetProductByIdQueryHandler>();
+            services.AddScoped<GetProductUpdateByIdQeryHandler>();
+            services.AddScoped<UpdateProductCommandHandler>();
             services.AddControllersWithViews();
         }
 

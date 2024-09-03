@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\ELEYDEV\\Desktop\\DesignPatterns\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5D3D6705-5C66-4AB7-BD35-74E79D8997DA}|CQRSDesignPattern\\DesignPattern.CQRS\\DesignPattern.CQRS.csproj|c:\\users\\eleydev\\desktop\\designpatterns\\cqrsdesignpattern\\designpattern.cqrs\\cqrspattern\\handlers\\getproductqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D3D6705-5C66-4AB7-BD35-74E79D8997DA}|CQRSDesignPattern\\DesignPattern.CQRS\\DesignPattern.CQRS.csproj|solutionrelative:cqrsdesignpattern\\designpattern.cqrs\\cqrspattern\\handlers\\getproductqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5D3D6705-5C66-4AB7-BD35-74E79D8997DA}|CQRSDesignPattern\\DesignPattern.CQRS\\DesignPattern.CQRS.csproj|c:\\users\\eleydev\\desktop\\designpatterns\\cqrsdesignpattern\\designpattern.cqrs\\views\\default\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5D3D6705-5C66-4AB7-BD35-74E79D8997DA}|CQRSDesignPattern\\DesignPattern.CQRS\\DesignPattern.CQRS.csproj|solutionrelative:cqrsdesignpattern\\designpattern.cqrs\\views\\default\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D3D6705-5C66-4AB7-BD35-74E79D8997DA}|CQRSDesignPattern\\DesignPattern.CQRS\\DesignPattern.CQRS.csproj|c:\\users\\eleydev\\desktop\\designpatterns\\cqrsdesignpattern\\designpattern.cqrs\\cqrspattern\\results\\getproductqueryresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D3D6705-5C66-4AB7-BD35-74E79D8997DA}|CQRSDesignPattern\\DesignPattern.CQRS\\DesignPattern.CQRS.csproj|solutionrelative:cqrsdesignpattern\\designpattern.cqrs\\cqrspattern\\results\\getproductqueryresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5D3D6705-5C66-4AB7-BD35-74E79D8997DA}|CQRSDesignPattern\\DesignPattern.CQRS\\DesignPattern.CQRS.csproj|c:\\users\\eleydev\\desktop\\designpatterns\\cqrsdesignpattern\\designpattern.cqrs\\views\\default\\getproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5D3D6705-5C66-4AB7-BD35-74E79D8997DA}|CQRSDesignPattern\\DesignPattern.CQRS\\DesignPattern.CQRS.csproj|solutionrelative:cqrsdesignpattern\\designpattern.cqrs\\views\\default\\getproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D3D6705-5C66-4AB7-BD35-74E79D8997DA}|CQRSDesignPattern\\DesignPattern.CQRS\\DesignPattern.CQRS.csproj|c:\\users\\eleydev\\desktop\\designpatterns\\cqrsdesignpattern\\designpattern.cqrs\\views\\default\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5D3D6705-5C66-4AB7-BD35-74E79D8997DA}|CQRSDesignPattern\\DesignPattern.CQRS\\DesignPattern.CQRS.csproj|solutionrelative:cqrsdesignpattern\\designpattern.cqrs\\views\\default\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +27,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "GetProductQueryHandler.cs",
-              "DocumentMoniker": "C:\\Users\\ELEYDEV\\Desktop\\DesignPatterns\\CQRSDesignPattern\\DesignPattern.CQRS\\CQRSPattern\\Handlers\\GetProductQueryHandler.cs",
-              "RelativeDocumentMoniker": "CQRSDesignPattern\\DesignPattern.CQRS\\CQRSPattern\\Handlers\\GetProductQueryHandler.cs",
-              "ToolTip": "C:\\Users\\ELEYDEV\\Desktop\\DesignPatterns\\CQRSDesignPattern\\DesignPattern.CQRS\\CQRSPattern\\Handlers\\GetProductQueryHandler.cs",
-              "RelativeToolTip": "CQRSDesignPattern\\DesignPattern.CQRS\\CQRSPattern\\Handlers\\GetProductQueryHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T14:27:52.951Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ELEYDEV\\Desktop\\DesignPatterns\\CQRSDesignPattern\\DesignPattern.CQRS\\Views\\Default\\Index.cshtml",
+              "RelativeDocumentMoniker": "CQRSDesignPattern\\DesignPattern.CQRS\\Views\\Default\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ELEYDEV\\Desktop\\DesignPatterns\\CQRSDesignPattern\\DesignPattern.CQRS\\Views\\Default\\Index.cshtml",
+              "RelativeToolTip": "CQRSDesignPattern\\DesignPattern.CQRS\\Views\\Default\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-03T10:25:24.655Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "GetProductQueryResult.cs",
-              "DocumentMoniker": "C:\\Users\\ELEYDEV\\Desktop\\DesignPatterns\\CQRSDesignPattern\\DesignPattern.CQRS\\CQRSPattern\\Results\\GetProductQueryResult.cs",
-              "RelativeDocumentMoniker": "CQRSDesignPattern\\DesignPattern.CQRS\\CQRSPattern\\Results\\GetProductQueryResult.cs",
-              "ToolTip": "C:\\Users\\ELEYDEV\\Desktop\\DesignPatterns\\CQRSDesignPattern\\DesignPattern.CQRS\\CQRSPattern\\Results\\GetProductQueryResult.cs",
-              "RelativeToolTip": "CQRSDesignPattern\\DesignPattern.CQRS\\CQRSPattern\\Results\\GetProductQueryResult.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T14:25:49.546Z",
+              "Title": "GetProduct.cshtml",
+              "DocumentMoniker": "C:\\Users\\ELEYDEV\\Desktop\\DesignPatterns\\CQRSDesignPattern\\DesignPattern.CQRS\\Views\\Default\\GetProduct.cshtml",
+              "RelativeDocumentMoniker": "CQRSDesignPattern\\DesignPattern.CQRS\\Views\\Default\\GetProduct.cshtml",
+              "ToolTip": "C:\\Users\\ELEYDEV\\Desktop\\DesignPatterns\\CQRSDesignPattern\\DesignPattern.CQRS\\Views\\Default\\GetProduct.cshtml",
+              "RelativeToolTip": "CQRSDesignPattern\\DesignPattern.CQRS\\Views\\Default\\GetProduct.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-03T10:24:43.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddProduct.cshtml",
+              "DocumentMoniker": "C:\\Users\\ELEYDEV\\Desktop\\DesignPatterns\\CQRSDesignPattern\\DesignPattern.CQRS\\Views\\Default\\AddProduct.cshtml",
+              "RelativeDocumentMoniker": "CQRSDesignPattern\\DesignPattern.CQRS\\Views\\Default\\AddProduct.cshtml",
+              "ToolTip": "C:\\Users\\ELEYDEV\\Desktop\\DesignPatterns\\CQRSDesignPattern\\DesignPattern.CQRS\\Views\\Default\\AddProduct.cshtml",
+              "RelativeToolTip": "CQRSDesignPattern\\DesignPattern.CQRS\\Views\\Default\\AddProduct.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-03T10:24:07.138Z",
               "EditorCaption": ""
             }
           ]
