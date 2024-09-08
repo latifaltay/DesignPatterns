@@ -5,7 +5,11 @@ VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CQRSDesignPattern", "CQRSDesignPattern", "{C665206E-F47D-40D5-B9AF-D5F99787BFDB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern.CQRS", "CQRSDesignPattern\DesignPattern.CQRS\DesignPattern.CQRS.csproj", "{5D3D6705-5C66-4AB7-BD35-74E79D8997DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPattern.CQRS", "CQRSDesignPattern\DesignPattern.CQRS\DesignPattern.CQRS.csproj", "{5D3D6705-5C66-4AB7-BD35-74E79D8997DA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MediatorDesignPattern", "MediatorDesignPattern", "{3AE4C110-2EE9-4563-9591-BADB72751071}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern.Mediator", "MediatorDesignPattern\DesignPattern.Mediator\DesignPattern.Mediator.csproj", "{FFCABB56-C43C-453B-987F-F8F733B6ECB7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +21,17 @@ Global
 		{5D3D6705-5C66-4AB7-BD35-74E79D8997DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D3D6705-5C66-4AB7-BD35-74E79D8997DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D3D6705-5C66-4AB7-BD35-74E79D8997DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFCABB56-C43C-453B-987F-F8F733B6ECB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFCABB56-C43C-453B-987F-F8F733B6ECB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFCABB56-C43C-453B-987F-F8F733B6ECB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFCABB56-C43C-453B-987F-F8F733B6ECB7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{5D3D6705-5C66-4AB7-BD35-74E79D8997DA} = {C665206E-F47D-40D5-B9AF-D5F99787BFDB}
+		{FFCABB56-C43C-453B-987F-F8F733B6ECB7} = {3AE4C110-2EE9-4563-9591-BADB72751071}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0604704D-B073-412B-868E-9626CC5E6EC5}

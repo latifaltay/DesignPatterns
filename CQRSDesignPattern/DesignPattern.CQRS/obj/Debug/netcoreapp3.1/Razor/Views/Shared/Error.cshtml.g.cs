@@ -4,7 +4,7 @@
 [assembly: global::Microsoft.AspNetCore.Razor.Hosting.RazorCompiledItemAttribute(typeof(AspNetCore.Views_Shared_Error), @"mvc.1.0.view", @"/Views/Shared/Error.cshtml")]
 namespace AspNetCore
 {
-    #line default
+    #line hidden
     using global::System;
     using global::System.Collections.Generic;
     using global::System.Linq;
@@ -14,20 +14,20 @@ namespace AspNetCore
     using global::Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
 #line 1 "C:\Users\ELEYDEV\Desktop\DesignPatterns\CQRSDesignPattern\DesignPattern.CQRS\Views\_ViewImports.cshtml"
-using DesignPattern.CQRS
-
-#nullable disable
-    ;
-#nullable restore
-#line 2 "C:\Users\ELEYDEV\Desktop\DesignPatterns\CQRSDesignPattern\DesignPattern.CQRS\Views\_ViewImports.cshtml"
-using DesignPattern.CQRS.Models
+using DesignPattern.CQRS;
 
 #line default
 #line hidden
 #nullable disable
-    ;
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"5dbf98b6b9394ad78206edce40cab1d7a238aa69cfefa41bab0ebc6aa22488aa", @"/Views/Shared/Error.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"0466c621941a7a410c92271912aa0a4e4bb6532681a38c35832c3a2ef1605376", @"/Views/_ViewImports.cshtml")]
+#nullable restore
+#line 2 "C:\Users\ELEYDEV\Desktop\DesignPatterns\CQRSDesignPattern\DesignPattern.CQRS\Views\_ViewImports.cshtml"
+using DesignPattern.CQRS.Models;
+
+#line default
+#line hidden
+#nullable disable
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA256", @"5dbf98b6b9394ad78206edce40cab1d7a238aa69cfefa41bab0ebc6aa22488aa", @"/Views/Shared/Error.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA256", @"0466c621941a7a410c92271912aa0a4e4bb6532681a38c35832c3a2ef1605376", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views_Shared_Error : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<ErrorViewModel>
     #nullable disable
@@ -43,7 +43,6 @@ using DesignPattern.CQRS.Models
 #line default
 #line hidden
 #nullable disable
-
             WriteLiteral("\r\n<h1 class=\"text-danger\">Error.</h1>\r\n<h2 class=\"text-danger\">An error occurred while processing your request.</h2>\r\n\r\n");
 #nullable restore
 #line 9 "C:\Users\ELEYDEV\Desktop\DesignPatterns\CQRSDesignPattern\DesignPattern.CQRS\Views\Shared\Error.cshtml"
@@ -53,17 +52,14 @@ using DesignPattern.CQRS.Models
 #line default
 #line hidden
 #nullable disable
-
             WriteLiteral("    <p>\r\n        <strong>Request ID:</strong> <code>");
-            Write(
 #nullable restore
 #line 12 "C:\Users\ELEYDEV\Desktop\DesignPatterns\CQRSDesignPattern\DesignPattern.CQRS\Views\Shared\Error.cshtml"
-                                            Model.RequestId
+                                      Write(Model.RequestId);
 
 #line default
 #line hidden
 #nullable disable
-            );
             WriteLiteral("</code>\r\n    </p>\r\n");
 #nullable restore
 #line 14 "C:\Users\ELEYDEV\Desktop\DesignPatterns\CQRSDesignPattern\DesignPattern.CQRS\Views\Shared\Error.cshtml"
@@ -72,7 +68,6 @@ using DesignPattern.CQRS.Models
 #line default
 #line hidden
 #nullable disable
-
             WriteLiteral(@"
 <h3>Development Mode</h3>
 <p>

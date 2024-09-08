@@ -4,7 +4,7 @@
 [assembly: global::Microsoft.AspNetCore.Razor.Hosting.RazorCompiledItemAttribute(typeof(AspNetCore.Views_Default_Index), @"mvc.1.0.view", @"/Views/Default/Index.cshtml")]
 namespace AspNetCore
 {
-    #line default
+    #line hidden
     using global::System;
     using global::System.Collections.Generic;
     using global::System.Linq;
@@ -14,26 +14,27 @@ namespace AspNetCore
     using global::Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
 #line 1 "C:\Users\ELEYDEV\Desktop\DesignPatterns\CQRSDesignPattern\DesignPattern.CQRS\Views\_ViewImports.cshtml"
-using DesignPattern.CQRS
-
-#nullable disable
-    ;
-#nullable restore
-#line 2 "C:\Users\ELEYDEV\Desktop\DesignPatterns\CQRSDesignPattern\DesignPattern.CQRS\Views\_ViewImports.cshtml"
-using DesignPattern.CQRS.Models
-
-#nullable disable
-    ;
-#nullable restore
-#line 1 "C:\Users\ELEYDEV\Desktop\DesignPatterns\CQRSDesignPattern\DesignPattern.CQRS\Views\Default\Index.cshtml"
- using DesignPattern.CQRS.CQRSPattern.Results
+using DesignPattern.CQRS;
 
 #line default
 #line hidden
 #nullable disable
-    ;
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"0ea9dc53a10c72f542a56b4db89c327d16258ff79c241ebde6b3391cd757e097", @"/Views/Default/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"0466c621941a7a410c92271912aa0a4e4bb6532681a38c35832c3a2ef1605376", @"/Views/_ViewImports.cshtml")]
+#nullable restore
+#line 2 "C:\Users\ELEYDEV\Desktop\DesignPatterns\CQRSDesignPattern\DesignPattern.CQRS\Views\_ViewImports.cshtml"
+using DesignPattern.CQRS.Models;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 1 "C:\Users\ELEYDEV\Desktop\DesignPatterns\CQRSDesignPattern\DesignPattern.CQRS\Views\Default\Index.cshtml"
+using DesignPattern.CQRS.CQRSPattern.Results;
+
+#line default
+#line hidden
+#nullable disable
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA256", @"0ea9dc53a10c72f542a56b4db89c327d16258ff79c241ebde6b3391cd757e097", @"/Views/Default/Index.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA256", @"0466c621941a7a410c92271912aa0a4e4bb6532681a38c35832c3a2ef1605376", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views_Default_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<List<GetProductQueryResult>>
     #nullable disable
@@ -72,9 +73,8 @@ using DesignPattern.CQRS.Models
 #line default
 #line hidden
 #nullable disable
-
             WriteLiteral("\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "0ea9dc53a10c72f542a56b4db89c327d16258ff79c241ebde6b3391cd757e0974513", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "0ea9dc53a10c72f542a56b4db89c327d16258ff79c241ebde6b3391cd757e0974549", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -111,85 +111,70 @@ using DesignPattern.CQRS.Models
 #line default
 #line hidden
 #nullable disable
-
             WriteLiteral("            <tr>\r\n                <td>");
-            Write(
 #nullable restore
 #line 24 "C:\Users\ELEYDEV\Desktop\DesignPatterns\CQRSDesignPattern\DesignPattern.CQRS\Views\Default\Index.cshtml"
-                     item.ProductId
+               Write(item.ProductId);
 
 #line default
 #line hidden
 #nullable disable
-            );
             WriteLiteral("</td>\r\n                <td>");
-            Write(
 #nullable restore
 #line 25 "C:\Users\ELEYDEV\Desktop\DesignPatterns\CQRSDesignPattern\DesignPattern.CQRS\Views\Default\Index.cshtml"
-                     item.ProductName
+               Write(item.ProductName);
 
 #line default
 #line hidden
 #nullable disable
-            );
             WriteLiteral("</td>\r\n                <td>$ ");
-            Write(
 #nullable restore
 #line 26 "C:\Users\ELEYDEV\Desktop\DesignPatterns\CQRSDesignPattern\DesignPattern.CQRS\Views\Default\Index.cshtml"
-                       item.Price
+                 Write(item.Price);
 
 #line default
 #line hidden
 #nullable disable
-            );
             WriteLiteral("</td>\r\n                <td>");
-            Write(
 #nullable restore
 #line 27 "C:\Users\ELEYDEV\Desktop\DesignPatterns\CQRSDesignPattern\DesignPattern.CQRS\Views\Default\Index.cshtml"
-                     item.Stock
+               Write(item.Stock);
 
 #line default
 #line hidden
 #nullable disable
-            );
             WriteLiteral("</td>\r\n                <td><a");
             BeginWriteAttribute("href", " href=\"", 743, "\"", 785, 2);
             WriteAttributeValue("", 750, "/Default/GetProduct/", 750, 20, true);
-            WriteAttributeValue("", 770, 
 #nullable restore
 #line 28 "C:\Users\ELEYDEV\Desktop\DesignPatterns\CQRSDesignPattern\DesignPattern.CQRS\Views\Default\Index.cshtml"
-                                                  item.ProductId
+WriteAttributeValue("", 770, item.ProductId, 770, 15, false);
 
 #line default
 #line hidden
 #nullable disable
-            , 770, 15, false);
             EndWriteAttribute();
             WriteLiteral(" class=\"btn btn-dark\">Getir</a></td>\r\n                <td><a");
             BeginWriteAttribute("href", " href=\"", 846, "\"", 891, 2);
             WriteAttributeValue("", 853, "/Default/DeleteProduct/", 853, 23, true);
-            WriteAttributeValue("", 876, 
 #nullable restore
 #line 29 "C:\Users\ELEYDEV\Desktop\DesignPatterns\CQRSDesignPattern\DesignPattern.CQRS\Views\Default\Index.cshtml"
-                                                     item.ProductId
+WriteAttributeValue("", 876, item.ProductId, 876, 15, false);
 
 #line default
 #line hidden
 #nullable disable
-            , 876, 15, false);
             EndWriteAttribute();
             WriteLiteral(" class=\"btn btn-danger\">Sil</a></td>\r\n                <td><a");
             BeginWriteAttribute("href", " href=\"", 952, "\"", 997, 2);
             WriteAttributeValue("", 959, "/Default/UpdateProduct/", 959, 23, true);
-            WriteAttributeValue("", 982, 
 #nullable restore
 #line 30 "C:\Users\ELEYDEV\Desktop\DesignPatterns\CQRSDesignPattern\DesignPattern.CQRS\Views\Default\Index.cshtml"
-                                                     item.ProductId
+WriteAttributeValue("", 982, item.ProductId, 982, 15, false);
 
 #line default
 #line hidden
 #nullable disable
-            , 982, 15, false);
             EndWriteAttribute();
             WriteLiteral(" class=\"btn btn-warning\">Güncelle</a></td>\r\n            </tr>\r\n");
 #nullable restore
@@ -199,7 +184,6 @@ using DesignPattern.CQRS.Models
 #line default
 #line hidden
 #nullable disable
-
             WriteLiteral("    </table>\r\n    <a href=\"/Default/AddProduct/\" class=\"btn btn-primary\">Yeni Ürün Girişi</a>\r\n</div>");
         }
         #pragma warning restore 1998

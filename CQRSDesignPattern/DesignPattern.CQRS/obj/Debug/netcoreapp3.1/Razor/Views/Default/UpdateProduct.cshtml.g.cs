@@ -4,7 +4,7 @@
 [assembly: global::Microsoft.AspNetCore.Razor.Hosting.RazorCompiledItemAttribute(typeof(AspNetCore.Views_Default_UpdateProduct), @"mvc.1.0.view", @"/Views/Default/UpdateProduct.cshtml")]
 namespace AspNetCore
 {
-    #line default
+    #line hidden
     using global::System;
     using global::System.Collections.Generic;
     using global::System.Linq;
@@ -14,26 +14,27 @@ namespace AspNetCore
     using global::Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
 #line 1 "C:\Users\ELEYDEV\Desktop\DesignPatterns\CQRSDesignPattern\DesignPattern.CQRS\Views\_ViewImports.cshtml"
-using DesignPattern.CQRS
-
-#nullable disable
-    ;
-#nullable restore
-#line 2 "C:\Users\ELEYDEV\Desktop\DesignPatterns\CQRSDesignPattern\DesignPattern.CQRS\Views\_ViewImports.cshtml"
-using DesignPattern.CQRS.Models
-
-#nullable disable
-    ;
-#nullable restore
-#line 1 "C:\Users\ELEYDEV\Desktop\DesignPatterns\CQRSDesignPattern\DesignPattern.CQRS\Views\Default\UpdateProduct.cshtml"
- using DesignPattern.CQRS.CQRSPattern.Results
+using DesignPattern.CQRS;
 
 #line default
 #line hidden
 #nullable disable
-    ;
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"d5aad2b2acbd524d10192badad311bf5f0464c659c7b8976c83735b2beb9b371", @"/Views/Default/UpdateProduct.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"0466c621941a7a410c92271912aa0a4e4bb6532681a38c35832c3a2ef1605376", @"/Views/_ViewImports.cshtml")]
+#nullable restore
+#line 2 "C:\Users\ELEYDEV\Desktop\DesignPatterns\CQRSDesignPattern\DesignPattern.CQRS\Views\_ViewImports.cshtml"
+using DesignPattern.CQRS.Models;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 1 "C:\Users\ELEYDEV\Desktop\DesignPatterns\CQRSDesignPattern\DesignPattern.CQRS\Views\Default\UpdateProduct.cshtml"
+using DesignPattern.CQRS.CQRSPattern.Results;
+
+#line default
+#line hidden
+#nullable disable
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA256", @"d5aad2b2acbd524d10192badad311bf5f0464c659c7b8976c83735b2beb9b371", @"/Views/Default/UpdateProduct.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA256", @"0466c621941a7a410c92271912aa0a4e4bb6532681a38c35832c3a2ef1605376", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views_Default_UpdateProduct : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<GetProductUpdateQueryResult>
     #nullable disable
@@ -78,9 +79,8 @@ using DesignPattern.CQRS.Models
 #line default
 #line hidden
 #nullable disable
-
             WriteLiteral("\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "d5aad2b2acbd524d10192badad311bf5f0464c659c7b8976c83735b2beb9b3715921", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "d5aad2b2acbd524d10192badad311bf5f0464c659c7b8976c83735b2beb9b3715957", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -95,9 +95,9 @@ using DesignPattern.CQRS.Models
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n\r\n<div class=\"container\">\r\n    <br />\r\n    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d5aad2b2acbd524d10192badad311bf5f0464c659c7b8976c83735b2beb9b3717110", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d5aad2b2acbd524d10192badad311bf5f0464c659c7b8976c83735b2beb9b3717146", async() => {
                 WriteLiteral("\r\n\r\n        <label>Ürün Id</label>\r\n        ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "d5aad2b2acbd524d10192badad311bf5f0464c659c7b8976c83735b2beb9b3717438", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "d5aad2b2acbd524d10192badad311bf5f0464c659c7b8976c83735b2beb9b3717474", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper>();
@@ -105,15 +105,13 @@ using DesignPattern.CQRS.Models
                 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.InputTypeName = (string)__tagHelperAttribute_2.Value;
                 __tagHelperExecutionContext.AddTagHelperAttribute(__tagHelperAttribute_2);
                 __tagHelperExecutionContext.AddHtmlAttribute(__tagHelperAttribute_3);
-                __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvider.CreateModelExpression(ViewData, __model => __model.
 #nullable restore
 #line 14 "C:\Users\ELEYDEV\Desktop\DesignPatterns\CQRSDesignPattern\DesignPattern.CQRS\Views\Default\UpdateProduct.cshtml"
-                                                         ProductId
+__Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvider.CreateModelExpression(ViewData, __model => __model.ProductId);
 
 #line default
 #line hidden
 #nullable disable
-                );
                 __tagHelperExecutionContext.AddTagHelperAttribute("asp-for", __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For, global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
                 await __tagHelperRunner.RunAsync(__tagHelperExecutionContext);
                 if (!__tagHelperExecutionContext.Output.IsContentModified)
@@ -123,7 +121,7 @@ using DesignPattern.CQRS.Models
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n        <br />\r\n\r\n        <label>Ürün Adı</label>\r\n        ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "d5aad2b2acbd524d10192badad311bf5f0464c659c7b8976c83735b2beb9b3719443", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "d5aad2b2acbd524d10192badad311bf5f0464c659c7b8976c83735b2beb9b3719386", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper>();
@@ -131,15 +129,13 @@ using DesignPattern.CQRS.Models
                 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.InputTypeName = (string)__tagHelperAttribute_2.Value;
                 __tagHelperExecutionContext.AddTagHelperAttribute(__tagHelperAttribute_2);
                 __tagHelperExecutionContext.AddHtmlAttribute(__tagHelperAttribute_3);
-                __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvider.CreateModelExpression(ViewData, __model => __model.
 #nullable restore
 #line 18 "C:\Users\ELEYDEV\Desktop\DesignPatterns\CQRSDesignPattern\DesignPattern.CQRS\Views\Default\UpdateProduct.cshtml"
-                                                         ProductName
+__Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvider.CreateModelExpression(ViewData, __model => __model.ProductName);
 
 #line default
 #line hidden
 #nullable disable
-                );
                 __tagHelperExecutionContext.AddTagHelperAttribute("asp-for", __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For, global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
                 await __tagHelperRunner.RunAsync(__tagHelperExecutionContext);
                 if (!__tagHelperExecutionContext.Output.IsContentModified)
@@ -149,7 +145,7 @@ using DesignPattern.CQRS.Models
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n        <br />\r\n\r\n        <label>Ürün Stok Sayısı</label>\r\n        ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "d5aad2b2acbd524d10192badad311bf5f0464c659c7b8976c83735b2beb9b37111458", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "d5aad2b2acbd524d10192badad311bf5f0464c659c7b8976c83735b2beb9b37111308", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper>();
@@ -157,15 +153,13 @@ using DesignPattern.CQRS.Models
                 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.InputTypeName = (string)__tagHelperAttribute_2.Value;
                 __tagHelperExecutionContext.AddTagHelperAttribute(__tagHelperAttribute_2);
                 __tagHelperExecutionContext.AddHtmlAttribute(__tagHelperAttribute_3);
-                __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvider.CreateModelExpression(ViewData, __model => __model.
 #nullable restore
 #line 22 "C:\Users\ELEYDEV\Desktop\DesignPatterns\CQRSDesignPattern\DesignPattern.CQRS\Views\Default\UpdateProduct.cshtml"
-                                                         Stock
+__Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvider.CreateModelExpression(ViewData, __model => __model.Stock);
 
 #line default
 #line hidden
 #nullable disable
-                );
                 __tagHelperExecutionContext.AddTagHelperAttribute("asp-for", __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For, global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
                 await __tagHelperRunner.RunAsync(__tagHelperExecutionContext);
                 if (!__tagHelperExecutionContext.Output.IsContentModified)
@@ -175,7 +169,7 @@ using DesignPattern.CQRS.Models
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n        <br />\r\n\r\n        <label>Ürün Fiyatı</label>\r\n        ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "d5aad2b2acbd524d10192badad311bf5f0464c659c7b8976c83735b2beb9b37113463", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "d5aad2b2acbd524d10192badad311bf5f0464c659c7b8976c83735b2beb9b37113220", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper>();
@@ -183,15 +177,13 @@ using DesignPattern.CQRS.Models
                 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.InputTypeName = (string)__tagHelperAttribute_2.Value;
                 __tagHelperExecutionContext.AddTagHelperAttribute(__tagHelperAttribute_2);
                 __tagHelperExecutionContext.AddHtmlAttribute(__tagHelperAttribute_3);
-                __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvider.CreateModelExpression(ViewData, __model => __model.
 #nullable restore
 #line 26 "C:\Users\ELEYDEV\Desktop\DesignPatterns\CQRSDesignPattern\DesignPattern.CQRS\Views\Default\UpdateProduct.cshtml"
-                                                         Price
+__Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvider.CreateModelExpression(ViewData, __model => __model.Price);
 
 #line default
 #line hidden
 #nullable disable
-                );
                 __tagHelperExecutionContext.AddTagHelperAttribute("asp-for", __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For, global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
                 await __tagHelperRunner.RunAsync(__tagHelperExecutionContext);
                 if (!__tagHelperExecutionContext.Output.IsContentModified)
@@ -201,7 +193,7 @@ using DesignPattern.CQRS.Models
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n        <br />\r\n\r\n        <label>Ürün Açıklaması</label>\r\n        ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "d5aad2b2acbd524d10192badad311bf5f0464c659c7b8976c83735b2beb9b37115472", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "d5aad2b2acbd524d10192badad311bf5f0464c659c7b8976c83735b2beb9b37115136", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper>();
@@ -209,15 +201,13 @@ using DesignPattern.CQRS.Models
                 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.InputTypeName = (string)__tagHelperAttribute_2.Value;
                 __tagHelperExecutionContext.AddTagHelperAttribute(__tagHelperAttribute_2);
                 __tagHelperExecutionContext.AddHtmlAttribute(__tagHelperAttribute_3);
-                __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvider.CreateModelExpression(ViewData, __model => __model.
 #nullable restore
 #line 30 "C:\Users\ELEYDEV\Desktop\DesignPatterns\CQRSDesignPattern\DesignPattern.CQRS\Views\Default\UpdateProduct.cshtml"
-                                                         Description
+__Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvider.CreateModelExpression(ViewData, __model => __model.Description);
 
 #line default
 #line hidden
 #nullable disable
-                );
                 __tagHelperExecutionContext.AddTagHelperAttribute("asp-for", __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For, global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
                 await __tagHelperRunner.RunAsync(__tagHelperExecutionContext);
                 if (!__tagHelperExecutionContext.Output.IsContentModified)

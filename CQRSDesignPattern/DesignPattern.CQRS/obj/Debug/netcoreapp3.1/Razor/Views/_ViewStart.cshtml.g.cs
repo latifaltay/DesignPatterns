@@ -4,7 +4,7 @@
 [assembly: global::Microsoft.AspNetCore.Razor.Hosting.RazorCompiledItemAttribute(typeof(AspNetCore.Views__ViewStart), @"mvc.1.0.view", @"/Views/_ViewStart.cshtml")]
 namespace AspNetCore
 {
-    #line default
+    #line hidden
     using global::System;
     using global::System.Collections.Generic;
     using global::System.Linq;
@@ -14,20 +14,20 @@ namespace AspNetCore
     using global::Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
 #line 1 "C:\Users\ELEYDEV\Desktop\DesignPatterns\CQRSDesignPattern\DesignPattern.CQRS\Views\_ViewImports.cshtml"
-using DesignPattern.CQRS
-
-#nullable disable
-    ;
-#nullable restore
-#line 2 "C:\Users\ELEYDEV\Desktop\DesignPatterns\CQRSDesignPattern\DesignPattern.CQRS\Views\_ViewImports.cshtml"
-using DesignPattern.CQRS.Models
+using DesignPattern.CQRS;
 
 #line default
 #line hidden
 #nullable disable
-    ;
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"47e02b4da20d198892b7b1b00b12944068797c438ef2e82d20ff70b4d56bad39", @"/Views/_ViewStart.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"0466c621941a7a410c92271912aa0a4e4bb6532681a38c35832c3a2ef1605376", @"/Views/_ViewImports.cshtml")]
+#nullable restore
+#line 2 "C:\Users\ELEYDEV\Desktop\DesignPatterns\CQRSDesignPattern\DesignPattern.CQRS\Views\_ViewImports.cshtml"
+using DesignPattern.CQRS.Models;
+
+#line default
+#line hidden
+#nullable disable
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA256", @"47e02b4da20d198892b7b1b00b12944068797c438ef2e82d20ff70b4d56bad39", @"/Views/_ViewStart.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA256", @"0466c621941a7a410c92271912aa0a4e4bb6532681a38c35832c3a2ef1605376", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     #nullable disable
@@ -43,7 +43,6 @@ using DesignPattern.CQRS.Models
 #line default
 #line hidden
 #nullable disable
-
         }
         #pragma warning restore 1998
         #nullable restore

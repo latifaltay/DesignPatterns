@@ -76,7 +76,6 @@ C:\Users\ELEYDEV\Desktop\DesignPatterns\CQRSDesignPattern\DesignPattern.CQRS\obj
 C:\Users\ELEYDEV\Desktop\DesignPatterns\CQRSDesignPattern\DesignPattern.CQRS\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.build.DesignPattern.CQRS.props
 C:\Users\ELEYDEV\Desktop\DesignPatterns\CQRSDesignPattern\DesignPattern.CQRS\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildMultiTargeting.DesignPattern.CQRS.props
 C:\Users\ELEYDEV\Desktop\DesignPatterns\CQRSDesignPattern\DesignPattern.CQRS\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildTransitive.DesignPattern.CQRS.props
-C:\Users\ELEYDEV\Desktop\DesignPatterns\CQRSDesignPattern\DesignPattern.CQRS\obj\Debug\netcoreapp3.1\DesignPa.10A2BA3C.Up2Date
 C:\Users\ELEYDEV\Desktop\DesignPatterns\CQRSDesignPattern\DesignPattern.CQRS\obj\Debug\netcoreapp3.1\DesignPattern.CQRS.dll
 C:\Users\ELEYDEV\Desktop\DesignPatterns\CQRSDesignPattern\DesignPattern.CQRS\obj\Debug\netcoreapp3.1\DesignPattern.CQRS.pdb
 C:\Users\ELEYDEV\Desktop\DesignPatterns\CQRSDesignPattern\DesignPattern.CQRS\obj\Debug\netcoreapp3.1\DesignPattern.CQRS.genruntimeconfig.cache
@@ -156,3 +155,4 @@ C:\Users\ELEYDEV\Desktop\DesignPatterns\CQRSDesignPattern\DesignPattern.CQRS\obj
 C:\Users\ELEYDEV\Desktop\DesignPatterns\CQRSDesignPattern\DesignPattern.CQRS\obj\Debug\netcoreapp3.1\Razor\Views\Default\AddProduct.cshtml.g.cs
 C:\Users\ELEYDEV\Desktop\DesignPatterns\CQRSDesignPattern\DesignPattern.CQRS\obj\Debug\netcoreapp3.1\Razor\Views\Default\GetProduct.cshtml.g.cs
 C:\Users\ELEYDEV\Desktop\DesignPatterns\CQRSDesignPattern\DesignPattern.CQRS\obj\Debug\netcoreapp3.1\Razor\Views\Default\UpdateProduct.cshtml.g.cs
+C:\Users\ELEYDEV\Desktop\DesignPatterns\CQRSDesignPattern\DesignPattern.CQRS\obj\Debug\netcoreapp3.1\DesignPattern.CQRS.csproj.CopyComplete
