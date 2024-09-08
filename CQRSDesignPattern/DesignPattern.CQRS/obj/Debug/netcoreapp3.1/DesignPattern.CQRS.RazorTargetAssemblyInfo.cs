@@ -17,7 +17,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyProductAttribute("DesignPattern.CQRS")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+361bb5212862e9bb684d89399cd1982c0623bbac")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+40d04226ae555b2d564f11d71b35edc7496071fb")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DesignPattern.CQRS.Views")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
