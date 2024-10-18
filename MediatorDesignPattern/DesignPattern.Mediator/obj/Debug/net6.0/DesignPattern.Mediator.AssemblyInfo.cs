@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DesignPattern.Mediator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+40d04226ae555b2d564f11d71b35edc7496071fb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c9a64173eee2467295d87f135fb58bb1461c4517")]
 [assembly: System.Reflection.AssemblyProductAttribute("DesignPattern.Mediator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DesignPattern.Mediator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
